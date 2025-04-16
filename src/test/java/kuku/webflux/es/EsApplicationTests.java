@@ -1,4 +1,4 @@
-package kuku.webflus.es;
+package kuku.webflux.es;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

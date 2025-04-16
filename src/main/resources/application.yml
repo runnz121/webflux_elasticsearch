@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb:
+      # mongodb://<username>:<password>@<host>:<port>/<database>?authSource=admin
+      uri: mongodb://usernameId:password@localhost:27017/kuku?authSource=admin
+      database: kuku
+  r2dbc:
+    driver: postgresql
+    host: localhost
+    port: 5432
+    user: postgresUser
+    password: postgresPass
+    database: kuku
+    url: r2dbc:postgresql://postgresUser:postgresPass@localhost:5432/kuku
+elasticsearch:
+  host: http://localhost:9200
